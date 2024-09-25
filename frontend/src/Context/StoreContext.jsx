@@ -7,7 +7,7 @@ const StoreContextProvider=(props)=>{
 
     const [food_list,setFood_list] =useState([]);
     const [cartItems,setCartItems]=useState({});
-    const url="http://localhost:4000";
+    const url="https://foodify-backend-ddsf.onrender.com";
     const [token,setToken]=useState("");
 
     const addToCart = async (itemId)=>{
