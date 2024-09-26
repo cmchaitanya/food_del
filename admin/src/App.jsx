@@ -17,6 +17,7 @@ const App = () => {
       <hr />
       <div className="app_content">
         <Sidebar/>
+        <Add url={url}/>
         <Routes>
           <Route path='/add' element={<Add url={url}/>}/>
           <Route path='/list' element={<List url={url}/>}/>
